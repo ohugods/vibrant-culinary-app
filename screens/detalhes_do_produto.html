@@ -3,7 +3,6 @@
 <html class="light" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<link rel="icon" href="data:,"/>
 <title>L'ESSENCE - Sculptural Lounge Chair</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&amp;family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
@@ -234,27 +233,25 @@
 </div>
 </div>
 </main>
-<!-- BottomNavBar (Mobile Only) - Suppressed for Product Details based on guidelines, but keeping structure if needed for other top-level pages. Commented out to adhere strictly to suppression logic for details page. -->
-<!--
-    <nav class="md:hidden fixed bottom-0 w-full z-50 rounded-t-3xl bg-white/70 dark:bg-stone-900/70 backdrop-blur-xl border-t border-stone-100 dark:border-stone-800 shadow-[0_-10px_30px_rgba(0,0,0,0.03)]">
-        <div class="flex justify-around items-center h-20 px-6 pb-safe">
-            <a href="descoberta_de_receitas.html" role="button" class="flex flex-col items-center gap-1 text-stone-400 dark:text-stone-600 hover:text-stone-800 dark:hover:text-stone-200 transition-all duration-300">
-                <span class="material-symbols-outlined text-2xl transition-transform duration-500 ease-out" style="font-variation-settings: 'FILL' 0;">home</span>
-                <span class="font-sans text-[10px] uppercase tracking-tighter">home</span>
-            </a>
-            <a href="detalhes_da_receita.html" role="button" class="flex flex-col items-center gap-1 text-stone-400 dark:text-stone-600 hover:text-stone-800 dark:hover:text-stone-200 transition-all duration-300">
-                <span class="material-symbols-outlined text-2xl transition-transform duration-500 ease-out" style="font-variation-settings: 'FILL' 0;">search</span>
-                <span class="font-sans text-[10px] uppercase tracking-tighter">search</span>
-            </a>
-            <a href="discovery_shop.html" role="button" class="flex flex-col items-center gap-1 text-stone-400 dark:text-stone-600 hover:text-stone-800 dark:hover:text-stone-200 transition-all duration-300">
-                <span class="material-symbols-outlined text-2xl transition-transform duration-500 ease-out" style="font-variation-settings: 'FILL' 0;">favorite</span>
-                <span class="font-sans text-[10px] uppercase tracking-tighter">favorite</span>
-            </a>
-            <a href="perfil_do_chef.html" role="button" class="flex flex-col items-center gap-1 text-stone-400 dark:text-stone-600 hover:text-stone-800 dark:hover:text-stone-200 transition-all duration-300">
-                <span class="material-symbols-outlined text-2xl transition-transform duration-500 ease-out" style="font-variation-settings: 'FILL' 0;">person</span>
-                <span class="font-sans text-[10px] uppercase tracking-tighter">person</span>
-            </a>
-        </div>
-    </nav>
-    -->
+<!-- BottomNavBar (produto = contexto Shop) -->
+<nav class="md:hidden fixed bottom-0 w-full z-50 rounded-t-3xl bg-white/70 dark:bg-stone-900/70 backdrop-blur-xl border-t border-stone-100 dark:border-stone-800 shadow-[0_-10px_30px_rgba(0,0,0,0.03)]" aria-label="Primary navigation">
+<div class="flex justify-around items-center h-20 px-3 pb-safe pt-2">
+<a href="descoberta_de_receitas.html" role="button" class="flex flex-col items-center gap-1 text-stone-400 dark:text-stone-600 hover:text-stone-800 dark:hover:text-stone-200 transition-all duration-300 min-w-0">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 0;">explore</span>
+<span class="font-sans text-[9px] uppercase tracking-widest text-center">Discover</span>
+</a>
+<a href="detalhes_da_receita.html" role="button" class="flex flex-col items-center gap-1 text-stone-400 dark:text-stone-600 hover:text-stone-800 dark:hover:text-stone-200 transition-all duration-300 min-w-0">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 0;">restaurant</span>
+<span class="font-sans text-[9px] uppercase tracking-widest text-center">Recipes</span>
+</a>
+<a aria-current="page" href="discovery_shop.html" role="button" class="flex flex-col items-center gap-1 text-stone-900 dark:text-stone-50 transition-all duration-300 min-w-0">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">storefront</span>
+<span class="font-sans text-[9px] uppercase tracking-widest text-center">Shop</span>
+</a>
+<a href="perfil_do_chef.html" role="button" class="flex flex-col items-center gap-1 text-stone-400 dark:text-stone-600 hover:text-stone-800 dark:hover:text-stone-200 transition-all duration-300 min-w-0">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 0;">person</span>
+<span class="font-sans text-[9px] uppercase tracking-widest text-center">Profile</span>
+</a>
+</div>
+</nav>
 </body></html>

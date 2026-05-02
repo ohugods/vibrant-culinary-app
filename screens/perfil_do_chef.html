@@ -3,7 +3,6 @@
 <html class="light" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<link rel="icon" href="data:,"/>
 <title>L'ESSENCE - Profile</title>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
@@ -204,27 +203,23 @@
 </section>
 </main>
 <!-- BottomNavBar -->
-<nav class="bg-white font-['Plus_Jakarta_Sans'] text-[10px] font-semibold tracking-wide fixed bottom-0 w-full z-50 rounded-t-2xl shadow-[0_-4px_20px_rgba(255,112,67,0.08)]">
-<div class="fixed bottom-0 left-0 right-0 flex justify-around items-center px-4 py-3 bg-white pb-safe">
-<!-- Inactive: Discover -->
-<a href="descoberta_de_receitas.html" role="button" class="flex flex-col items-center justify-center text-zinc-400 px-3 py-1.5 hover:text-orange-400">
-<span class="material-symbols-outlined mb-1 text-[24px]">explore</span>
-<span>Discover</span>
+<nav class="bg-white font-['Plus_Jakarta_Sans'] text-[10px] font-semibold tracking-wide fixed bottom-0 w-full z-50 rounded-t-2xl shadow-[0_-4px_20px_rgba(255,112,67,0.08)]" aria-label="Primary navigation">
+<div class="fixed bottom-0 left-0 right-0 flex justify-around items-center px-3 py-3 bg-white pb-safe">
+<a href="descoberta_de_receitas.html" role="button" class="flex flex-col items-center justify-center text-zinc-400 px-2 py-1.5 hover:text-orange-400 min-w-0">
+<span class="material-symbols-outlined mb-1 text-[22px]">explore</span>
+<span class="text-[9px] text-center">Discover</span>
 </a>
-<!-- Inactive: Saved -->
-<a href="detalhes_da_receita.html" role="button" class="flex flex-col items-center justify-center text-zinc-400 px-3 py-1.5 hover:text-orange-400">
-<span class="material-symbols-outlined mb-1 text-[24px]">bookmark</span>
-<span>Saved</span>
+<a href="detalhes_da_receita.html" role="button" class="flex flex-col items-center justify-center text-zinc-400 px-2 py-1.5 hover:text-orange-400 min-w-0">
+<span class="material-symbols-outlined mb-1 text-[22px]">restaurant</span>
+<span class="text-[9px] text-center">Recipes</span>
 </a>
-<!-- Inactive: List -->
-<a href="discovery_shop.html" role="button" class="flex flex-col items-center justify-center text-zinc-400 px-3 py-1.5 hover:text-orange-400">
-<span class="material-symbols-outlined mb-1 text-[24px]">receipt_long</span>
-<span>List</span>
+<a href="discovery_shop.html" role="button" class="flex flex-col items-center justify-center text-zinc-400 px-2 py-1.5 hover:text-orange-400 min-w-0">
+<span class="material-symbols-outlined mb-1 text-[22px]">storefront</span>
+<span class="text-[9px] text-center">Shop</span>
 </a>
-<!-- Active: Profile -->
-<a href="perfil_do_chef.html" role="button" class="flex flex-col items-center justify-center text-orange-500 bg-orange-50 rounded-xl px-3 py-1.5 scale-90 transition-transform duration-150">
-<span class="material-symbols-outlined mb-1 text-[24px]" data-weight="fill">person</span>
-<span>Profile</span>
+<a aria-current="page" href="perfil_do_chef.html" role="button" class="flex flex-col items-center justify-center text-orange-500 bg-orange-50 rounded-xl px-2 py-1.5 scale-90 transition-transform duration-150 min-w-0">
+<span class="material-symbols-outlined mb-1 text-[22px]" data-weight="fill">person</span>
+<span class="text-[9px] text-center">Profile</span>
 </a>
 </div>
 </nav>
