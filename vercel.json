@@ -1,5 +1,60 @@
-﻿{
+{
   "rewrites": [
-    { "source": "/screens/:path*", "destination": "/src/screens/:path*" }
+    {
+      "source": "/screens/descoberta_de_receitas.html",
+      "destination": "/src/screens/discover.html"
+    },
+    {
+      "source": "/src/screens/descoberta_de_receitas.html",
+      "destination": "/src/screens/discover.html"
+    },
+    {
+      "source": "/screens/detalhes_da_receita.html",
+      "destination": "/src/screens/recipe-detail.html"
+    },
+    {
+      "source": "/src/screens/detalhes_da_receita.html",
+      "destination": "/src/screens/recipe-detail.html"
+    },
+    {
+      "source": "/screens/detalhes_do_produto.html",
+      "destination": "/src/screens/product-detail.html"
+    },
+    {
+      "source": "/src/screens/detalhes_do_produto.html",
+      "destination": "/src/screens/product-detail.html"
+    },
+    {
+      "source": "/screens/carrinho_de_compras.html",
+      "destination": "/src/screens/cart.html"
+    },
+    {
+      "source": "/src/screens/carrinho_de_compras.html",
+      "destination": "/src/screens/cart.html"
+    },
+    {
+      "source": "/screens/finalizar_compra.html",
+      "destination": "/src/screens/checkout.html"
+    },
+    {
+      "source": "/src/screens/finalizar_compra.html",
+      "destination": "/src/screens/checkout.html"
+    },
+    {
+      "source": "/screens/perfil_do_chef.html",
+      "destination": "/src/screens/chef-profile.html"
+    },
+    {
+      "source": "/src/screens/perfil_do_chef.html",
+      "destination": "/src/screens/chef-profile.html"
+    },
+    {
+      "source": "/screens/discovery_shop.html",
+      "destination": "/src/screens/shop.html"
+    },
+    {
+      "source": "/src/screens/discovery_shop.html",
+      "destination": "/src/screens/shop.html"
+    }
   ]
 }
